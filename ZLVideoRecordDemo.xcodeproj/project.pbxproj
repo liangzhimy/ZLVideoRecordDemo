@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50444A831DE6F3D800EBBDAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50444A821DE6F3D800EBBDAB /* main.m */; };
+		50444A861DE6F3D800EBBDAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50444A851DE6F3D800EBBDAB /* AppDelegate.m */; };
+		50444A891DE6F3D800EBBDAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50444A881DE6F3D800EBBDAB /* ViewController.m */; };
+		50444A8C1DE6F3D800EBBDAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50444A8A1DE6F3D800EBBDAB /* Main.storyboard */; };
+		50444A8E1DE6F3D800EBBDAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50444A8D1DE6F3D800EBBDAB /* Assets.xcassets */; };
+		50444A911DE6F3D800EBBDAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50444A8F1DE6F3D800EBBDAB /* LaunchScreen.storyboard */; };
+		50444A9B1DE6F41200EBBDAB /* ZLRecordSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 50444A9A1DE6F41200EBBDAB /* ZLRecordSession.m */; };
+		50444AA11DE6F43400EBBDAB /* ZLRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 50444AA01DE6F43400EBBDAB /* ZLRecorder.m */; };
+		50444AA41DE6F4C900EBBDAB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50444AA31DE6F4C900EBBDAB /* AVFoundation.framework */; };
+		50444AA61DE6F4EA00EBBDAB /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50444AA51DE6F4EA00EBBDAB /* CoreImage.framework */; };
+		50444AA81DE6F4F100EBBDAB /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50444AA71DE6F4F100EBBDAB /* AssetsLibrary.framework */; };
+		50444AAA1DE6F4F800EBBDAB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50444AA91DE6F4F800EBBDAB /* CoreMedia.framework */; };
+		50444AAC1DE6F50000EBBDAB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50444AAB1DE6F50000EBBDAB /* CoreVideo.framework */; };
+		50444AAE1DE6F50800EBBDAB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50444AAD1DE6F50800EBBDAB /* ImageIO.framework */; };
+		50444AB01DE6F51E00EBBDAB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50444AAF1DE6F51E00EBBDAB /* OpenGLES.framework */; };
+		50E197081DEC005400B888A2 /* ZLRecorderCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E197071DEC005400B888A2 /* ZLRecorderCore.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50444A7E1DE6F3D800EBBDAB /* ZLVideoRecordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLVideoRecordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50444A821DE6F3D800EBBDAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50444A841DE6F3D800EBBDAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50444A851DE6F3D800EBBDAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50444A871DE6F3D800EBBDAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50444A881DE6F3D800EBBDAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50444A8B1DE6F3D800EBBDAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50444A8D1DE6F3D800EBBDAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50444A901DE6F3D800EBBDAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50444A921DE6F3D800EBBDAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50444A991DE6F41200EBBDAB /* ZLRecordSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLRecordSession.h; sourceTree = "<group>"; };
+		50444A9A1DE6F41200EBBDAB /* ZLRecordSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLRecordSession.m; sourceTree = "<group>"; };
+		50444A9F1DE6F43400EBBDAB /* ZLRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLRecorder.h; sourceTree = "<group>"; };
+		50444AA01DE6F43400EBBDAB /* ZLRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLRecorder.m; sourceTree = "<group>"; };
+		50444AA31DE6F4C900EBBDAB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		50444AA51DE6F4EA00EBBDAB /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		50444AA71DE6F4F100EBBDAB /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		50444AA91DE6F4F800EBBDAB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		50444AAB1DE6F50000EBBDAB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		50444AAD1DE6F50800EBBDAB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		50444AAF1DE6F51E00EBBDAB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		50E197061DEC005400B888A2 /* ZLRecorderCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLRecorderCore.h; sourceTree = "<group>"; };
+		50E197071DEC005400B888A2 /* ZLRecorderCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLRecorderCore.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50444A7B1DE6F3D800EBBDAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50444AB01DE6F51E00EBBDAB /* OpenGLES.framework in Frameworks */,
+				50444AAE1DE6F50800EBBDAB /* ImageIO.framework in Frameworks */,
+				50444AAC1DE6F50000EBBDAB /* CoreVideo.framework in Frameworks */,
+				50444AAA1DE6F4F800EBBDAB /* CoreMedia.framework in Frameworks */,
+				50444AA81DE6F4F100EBBDAB /* AssetsLibrary.framework in Frameworks */,
+				50444AA61DE6F4EA00EBBDAB /* CoreImage.framework in Frameworks */,
+				50444AA41DE6F4C900EBBDAB /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50444A751DE6F3D800EBBDAB = {
+			isa = PBXGroup;
+			children = (
+				50444A801DE6F3D800EBBDAB /* ZLVideoRecordDemo */,
+				50444A7F1DE6F3D800EBBDAB /* Products */,
+				50444AA21DE6F4C900EBBDAB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50444A7F1DE6F3D800EBBDAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50444A7E1DE6F3D800EBBDAB /* ZLVideoRecordDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50444A801DE6F3D800EBBDAB /* ZLVideoRecordDemo */ = {
+			isa = PBXGroup;
+			children = (
+				50444A981DE6F3EE00EBBDAB /* Record */,
+				50444A841DE6F3D800EBBDAB /* AppDelegate.h */,
+				50444A851DE6F3D800EBBDAB /* AppDelegate.m */,
+				50444A871DE6F3D800EBBDAB /* ViewController.h */,
+				50444A881DE6F3D800EBBDAB /* ViewController.m */,
+				50444A8A1DE6F3D800EBBDAB /* Main.storyboard */,
+				50444A8D1DE6F3D800EBBDAB /* Assets.xcassets */,
+				50444A8F1DE6F3D800EBBDAB /* LaunchScreen.storyboard */,
+				50444A921DE6F3D800EBBDAB /* Info.plist */,
+				50444A811DE6F3D800EBBDAB /* Supporting Files */,
+			);
+			path = ZLVideoRecordDemo;
+			sourceTree = "<group>";
+		};
+		50444A811DE6F3D800EBBDAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50444A821DE6F3D800EBBDAB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50444A981DE6F3EE00EBBDAB /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				50444A991DE6F41200EBBDAB /* ZLRecordSession.h */,
+				50444A9A1DE6F41200EBBDAB /* ZLRecordSession.m */,
+				50444A9F1DE6F43400EBBDAB /* ZLRecorder.h */,
+				50444AA01DE6F43400EBBDAB /* ZLRecorder.m */,
+				50E197061DEC005400B888A2 /* ZLRecorderCore.h */,
+				50E197071DEC005400B888A2 /* ZLRecorderCore.m */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		50444AA21DE6F4C900EBBDAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50444AAF1DE6F51E00EBBDAB /* OpenGLES.framework */,
+				50444AAD1DE6F50800EBBDAB /* ImageIO.framework */,
+				50444AAB1DE6F50000EBBDAB /* CoreVideo.framework */,
+				50444AA91DE6F4F800EBBDAB /* CoreMedia.framework */,
+				50444AA71DE6F4F100EBBDAB /* AssetsLibrary.framework */,
+				50444AA51DE6F4EA00EBBDAB /* CoreImage.framework */,
+				50444AA31DE6F4C900EBBDAB /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50444A7D1DE6F3D800EBBDAB /* ZLVideoRecordDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50444A951DE6F3D800EBBDAB /* Build configuration list for PBXNativeTarget "ZLVideoRecordDemo" */;
+			buildPhases = (
+				50444A7A1DE6F3D800EBBDAB /* Sources */,
+				50444A7B1DE6F3D800EBBDAB /* Frameworks */,
+				50444A7C1DE6F3D800EBBDAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLVideoRecordDemo;
+			productName = ZLVideoRecordDemo;
+			productReference = 50444A7E1DE6F3D800EBBDAB /* ZLVideoRecordDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50444A761DE6F3D800EBBDAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = liangzhimy;
+				TargetAttributes = {
+					50444A7D1DE6F3D800EBBDAB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 50444A791DE6F3D800EBBDAB /* Build configuration list for PBXProject "ZLVideoRecordDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50444A751DE6F3D800EBBDAB;
+			productRefGroup = 50444A7F1DE6F3D800EBBDAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50444A7D1DE6F3D800EBBDAB /* ZLVideoRecordDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50444A7C1DE6F3D800EBBDAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50444A911DE6F3D800EBBDAB /* LaunchScreen.storyboard in Resources */,
+				50444A8E1DE6F3D800EBBDAB /* Assets.xcassets in Resources */,
+				50444A8C1DE6F3D800EBBDAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50444A7A1DE6F3D800EBBDAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50444A891DE6F3D800EBBDAB /* ViewController.m in Sources */,
+				50444AA11DE6F43400EBBDAB /* ZLRecorder.m in Sources */,
+				50E197081DEC005400B888A2 /* ZLRecorderCore.m in Sources */,
+				50444A9B1DE6F41200EBBDAB /* ZLRecordSession.m in Sources */,
+				50444A861DE6F3D800EBBDAB /* AppDelegate.m in Sources */,
+				50444A831DE6F3D800EBBDAB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50444A8A1DE6F3D800EBBDAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50444A8B1DE6F3D800EBBDAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50444A8F1DE6F3D800EBBDAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50444A901DE6F3D800EBBDAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50444A931DE6F3D800EBBDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50444A941DE6F3D800EBBDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50444A961DE6F3D800EBBDAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZLVideoRecordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zl.ZLVideoRecordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50444A971DE6F3D800EBBDAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZLVideoRecordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zl.ZLVideoRecordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50444A791DE6F3D800EBBDAB /* Build configuration list for PBXProject "ZLVideoRecordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50444A931DE6F3D800EBBDAB /* Debug */,
+				50444A941DE6F3D800EBBDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50444A951DE6F3D800EBBDAB /* Build configuration list for PBXNativeTarget "ZLVideoRecordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50444A961DE6F3D800EBBDAB /* Debug */,
+				50444A971DE6F3D800EBBDAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50444A761DE6F3D800EBBDAB /* Project object */;
+}
